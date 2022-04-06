@@ -24,7 +24,6 @@ const ProjectDetails: FunctionComponent<{
   },
   setShowDetail,
 }) => {
-  console.log(process.env.API);
   return (
     <motion.div
       variants={fadeInUp}
@@ -37,11 +36,9 @@ const ProjectDetails: FunctionComponent<{
           variants={fadeInUp}
           className="flex flex-row text-4xl text-green"
         >
-          {Array<number>(rating)
-            .fill()
-            .map((_, i) => (
-              <AiFillStar />
-            ))}
+          {new Array<number>(rating).fill(rating).map((_, i) => (
+            <AiFillStar />
+          ))}
         </motion.div>
         <motion.div variants={fadeInUp} className="border-4 border-gray-100">
           <Image

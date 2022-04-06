@@ -22,11 +22,9 @@ const ProjectCard: FunctionComponent<{
       <p className="my-2 text-center">{name}</p>
       <div className="absolute top-2 left-1">
         <div className="flex flex-row text-2xl text-green">
-          {Array<number>(rating)
-            .fill()
-            .map((_, i) => (
-              <AiFillStar />
-            ))}
+          {new Array<number>(rating).fill(rating).map((_, i) => (
+            <AiFillStar />
+          ))}
         </div>
       </div>
     </div>
