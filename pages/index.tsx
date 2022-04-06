@@ -14,10 +14,8 @@ const index = () => {
       exit="exit"
     >
       <h5 className="my-3 font-medium">
-        I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development
+        I am B.Tech Degree in Computer Science Engineering from Taras Shevchenko
+        National University. I have 1+ years of experience in Web Development
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"

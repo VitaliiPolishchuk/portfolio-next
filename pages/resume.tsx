@@ -35,7 +35,11 @@ const resume = () => {
             <p className="font-semibold">
               Limestone Digital (2020 Feb - 2020 June)
             </p>
-            <p className="my-3">Web Developer</p>
+            <p className="my-3">
+              As Web Developer built a beautiful and scalable SPA using HTML,CSS
+              and React.js. Handled databases, servers, apis using Django and
+              Spring.
+            </p>
           </div>
         </motion.div>
       </div>
