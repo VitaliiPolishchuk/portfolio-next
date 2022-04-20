@@ -86,13 +86,13 @@ const Projects = ({ apiURL }) => {
         >
           {new Array<number>(9).fill(9).map((project) => (
             <div
-              className="col-span-12 relative p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
+              className="relative col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
               
             >
               <SkeletonProjectCard
               />
-              <div className="absolute z-10 top-0 left-0 w-full h-full animate-pulse" >
-                <div className="w-full h-full opacity-70 bg-white"></div>
+              <div className="absolute top-0 left-0 z-10 w-full h-full animate-pulse" >
+                <div className="w-full h-full bg-white rounded-lg dark:bg-gray-600 opacity-70"></div>
               </div>
             </div>
           ))}
@@ -107,7 +107,7 @@ const Projects = ({ apiURL }) => {
           >
             {projects.map((project) => (
               <motion.div
-                className="col-span-12  relative p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
+                className="relative col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
                 variants={fadeInUp}
               >
                 <ProjectCard
