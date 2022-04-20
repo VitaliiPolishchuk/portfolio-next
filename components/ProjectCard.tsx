@@ -18,6 +18,7 @@ const ProjectCard: FunctionComponent<{
         width="300"
         height="150"
         layout="responsive"
+        placeholder="blur"
       />
       <p className="my-2 text-center">{name}</p>
       <div className="absolute top-2 left-1">

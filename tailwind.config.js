@@ -28,6 +28,16 @@ module.exports = {
           700: "#202125",
         },
       },
+      animation: {
+        loading: "loading 1.5s infinite",
+      },
+      keyframes: {
+        loading: {
+          "0%": { transform: "translateX(-100%)" },
+          "50%": { transform: "translateX(-70%)" },
+          "100%": { transform: "translateX(100%)" },
+        },
+      },
     },
   },
   variants: {
