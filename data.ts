@@ -11,7 +11,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable websites using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
   },
   {
     Icon: FaServer,
@@ -23,7 +23,7 @@ export const services: Service[] = [
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Spring Boot</b> ",
+      "I can develop robust  REST API using <b>django-rest-framework</b>  & <b>Spring Boot</b> ",
   },
   {
     Icon: MdDeveloperMode,
@@ -35,26 +35,22 @@ export const services: Service[] = [
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "70",
+    name: "HTML & CSS",
+    level: "89",
   },
   {
     Icon: BsCircleFill,
     name: "Java Script",
     level: "95",
   },
-  {
-    Icon: BsCircleFill,
-    name: "Java",
-    level: "93",
-  },
+  
 ];
 
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "70",
+    name: "SCSS/LESS/SASS",
+    level: "85",
   },
   {
     Icon: BsCircleFill,
@@ -63,7 +59,17 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Spring",
+    name: "Redux",
+    level: "93",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Webpack",
     level: "90",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Babel",
+    level: "70",
   },
 ];
