@@ -55,12 +55,14 @@ const ProjectDetails: FunctionComponent<{
         >
           <a
             href={deployed_url}
+            target="_blank"
             className="flex items-center px-4 py-2 space-x-3 text-sm bg-gray-200 md:text-md lg:text-lg dark:bg-dark-200"
           >
             <AiFillProject /> <span>Project</span>
           </a>
           <a
             href={github_frontend_url}
+            target="_blank"
             className="flex items-center px-4 py-2 space-x-3 text-sm bg-gray-200 md:text-md lg:text-lg dark:bg-dark-200"
           >
             <AiFillGithub /> <span>Frontend</span>
@@ -72,6 +74,7 @@ const ProjectDetails: FunctionComponent<{
             className="flex justify-center pt-0 my-4 space-x-3"
           >
             <a
+              target="_blank"
               href={github_backend_url}
               className="flex items-center px-4 py-2 space-x-3 text-sm bg-gray-200 md:text-md lg:text-lg dark:bg-dark-200"
             >
